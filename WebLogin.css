@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:  url(/images/display\ walpaper1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1400px;
+    height: 80px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7300;
+    font-size: 35px;
+    font-family:monospace;
+    padding: 10px 12px;
+    float: left;
+    font-weight: 600;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 500px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 15px;
+    color: #fff;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 8px 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .paragraph{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.content h1{
+    font-size: 50px;
+    padding-left: 40px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+.content .cn-btn{
+    width: 150px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: .3s ease;
+}
+.cn-btn:hover{
+    background: #fff;
+}
+.content span{
+    color: orangered;
+    font-size: 60px;
+}
+.form{
+    width: 260px;
+    height: 420px;
+    background: linear-gradient( rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left:1000px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 1px 2px orangered;
+}
+.form h2{
+    width: 220px;
+    text-align: center;
+    color: orangered;
+    font-size: 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 4px 8px;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family:sans-serif;
+}
+.f-btn{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .4s ease;
+}
+.f-btn:hover{
+    background: #fff;
+    color: orangered;
+    transition: .4s ease;
+}
+.f-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-size: 17px;
+    padding-top: 25px;
+    text-align: center;
+    letter-spacing: .5px;
+    font-family:Arial, Helvetica;
+}
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+}
+.form .lw{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.icons{
+    padding-top: 10px;
+}
+.icons a{
+    font-size: 26px;
+    color: #fff;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+.icons a:hover{
+    color: orangered;
+    transition: 0.5s;
+    transform:translate(5px);
+}
+.developer{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+.developer span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
